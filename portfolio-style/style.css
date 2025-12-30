@@ -20,9 +20,13 @@ h1, h2, h3, h4, h5, h6 {
  .mainheading h1{
     font-size: 96px;
 }
+ body h2{
+    font-size: 64px;
+}
 p{
-
+    font-size: 16px;
     font-weight: normal;
+    line-height: 30px;
 }
 .mainheading{
     background: var(--secondary-color);
@@ -50,9 +54,35 @@ p{
  font-size: 18px;
  line-height: 27px;
  padding: 12px 20px;
+}
+.btn.btn-yogurt-outline{
+border-radius: 5px;
+font-size: 18px;
+ line-height: 27px;
+ padding: 12px 20px; 
+ color: var(--branding-color); 
+ border: 2px solid var(--branding-color); 
+}
 
-
-
-
+.yogurt-discription{
+    padding: 120px 60px;
 
 }
+@media (max-width: 900px){
+
+
+    .mainheading h1{
+        font-size: 60px;
+    }
+     body h2{
+        font-size: 44px;
+    }
+
+
+
+    .yogurt-discription{
+        padding: 0;
+        text-align: center;
+    }
+}
+
