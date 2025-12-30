@@ -1,3 +1,58 @@
-h1{
+:root{
+    --branding-color: #6C63FF;
+    --secondary-color: #F9F7FE;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "poppins", sans-serif;
+
+}
+
+body{
+    font-family: var(--default-font-family);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+}
+ .mainheading h1{
+    font-size: 96px;
+}
+p{
+
+    font-weight: normal;
+}
+.mainheading{
+    background: var(--secondary-color);
     text-align: center;
+    padding: 160px 20px;
+}
+.mainheading p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+
+}
+.mainheading h2{
+    font-family: var(--heading-font-family);
+    font-weight: 50px;
+    line-height: 2;
+    font-size: 24px;
+
+}
+.btn.btn-contact{
+ background: #6C63FF;
+ border-radius: 5px;  
+ color: white; 
+ font-size: 18px;
+ line-height: 27px;
+ padding: 12px 20px;
+
+
+
+
+
 }
