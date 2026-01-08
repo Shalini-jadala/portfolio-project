@@ -133,6 +133,17 @@ footer .contact-box{
   background-color: #084298;
   color: white;
 }
+ 
+.btn-branding {
+  display: inline-block;
+  background-color: var(--branding-color);
+  color: white;
+  border: none;
+  transition: all 100ms ease-in-out;
+  padding: 120px;
+  text-decoration: none;
+  border-radius: 10px;
+}
 
 
 
